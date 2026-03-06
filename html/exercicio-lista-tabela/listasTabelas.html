@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas e Tabelas</title>
+
+</head>
+<body>
+
+    <h2>
+        Frutas
+    </h2>
+    <ul>
+        <li>Banana
+            <ul>
+                <li>Banana nanica</li>
+                <li>Banana da terra</li>
+                <li>Banana prata</li>
+            </ul>
+        </li>
+        <li>Manga</li>
+        <li>Abacaxi</li>
+        <li>Uva</li>
+        <li>Maçã</li>
+
+    </ul>
+
+    <h2>Passos para fazer chá</h2>
+    <ol class="Lista">
+        <li>Coloque agua no bule</li>
+        <li>Coloque o bule no fogão</li>
+        <li>Aqueça o bule até a agua ferver</li>
+        <li>Coloque em uma xícara a agua quente</li>
+        <li>Coloque o sache de chá de sua preferença e esta pronto para beber</li>
+    </ol>
+
+    <h2>Passos para fazer chá invertido</h2>
+    <ol reversed>
+        <li>Coloque o sache de chá de sua preferença e esta pronto para beber</li>
+        <li>Coloque em uma xícara a agua</li>
+        <li>Aqueça o bule até a agua ferver</li>
+        <li>Coloque o bule no fogão</li>
+        <li>Coloque agua no bule</li>
+    </ol>
+
+    <h2>Termos Web</h2>
+    <dl>
+        <dt>table</dt>
+            <dd>Significado, Tabela</dd>
+            <dd>É uma tag que define uma tabela</dd>
+            <dd>Pode ser usado para criar tabelas</dd>
+        <dt>HTML</dt>
+            <dd>HyperText Markup Protocol, o protocolo usado para transferir documentos na web.</dd>
+        <dt>IP</dt>
+            <dd>Internet Protocol, um conjunto de regras para encaminhar pacotes de dados através da internet.</dd>
+    </dl>
+
+    <h2>Horários de Aula</h2>
+    <table>
+        <caption>Carga horaria de Aulas</caption>
+
+        <colgroup>
+            <col>
+            <col class="destaque">
+            <col>
+            <col>
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th scope="col">Diciplinas</th>
+                <th scope="col">Segunda</th>
+                <th scope="col">Terça</th>
+                <th scope="col">Quarta</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">Física</th>
+                <td aria-label="Uma hora de Física">1h</td>
+                <td aria-label="Uma hora e meia de Biologia">1h30</td>
+                <td aria-label="Duas horas de Química">2h</td>
+            </tr>
+
+            <tr>
+                <th scope="row">Biologia</th>
+                <td>2h</td>
+                <td>1h</td>
+                <td>1h</td>
+            </tr>
+
+            <tr>
+                <th scope="row">Química</th>
+                <td>1h</td>
+                <td>2h</td>
+                <td>1h30</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr class="destaque">
+                <th scope="row">Total por dia</th>
+                <td>4h</td>
+                <td>4h30</td>
+                <td>4h30</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    
+</body>
+</html>
