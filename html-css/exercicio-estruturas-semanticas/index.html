@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Estruturas semântica</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="description" content="Site Submundo Perdido com notícias sobre tecnologia, filmes, séries e animes.">
+        <meta name="keywords" content="Tecnologia, animes, filmes, séries, notícia">
+        <meta name="author" content="Jhamison Rodrigues">
+    </head>
+    <body>
+    <header>
+        <img src="midias/lost-underworld.png" class="logo" alt="logotipo submundo Perdido">
+        <h1>Submundo Perdido</h1>
+        <nav id="lista" aria-label="Menu principal da pagina">         
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>    
+    </header>
+    <main>
+        <section id="inicio">
+            <article>
+                <h2>Conteudo principal</h2>
+                <p>Artigo ou noticia principal</p>
+                <figure>
+                    <img src="midias/ghost-hacker.jpg" class="img" alt="Imagem do ghost hacker">
+
+                    <figcaption>Imagem do simbolo hacker</figcaption>
+                </figure>
+            </article>
+            <article>
+                <h3>Conteudo secundario</h3>
+                <video src="midias/gojo-vs-toji-Jujutsu-kaisen.mp4" width="600" controls></video>
+                <p>informações secundarias</p>
+            </article>
+        </section>
+        <section id="sobre">
+            <article>
+                <h3>Sobre</h3>
+                <p>Sobre o site</p>
+            </article>
+        </section>
+
+        <section id="contacto">
+            <article>
+                <h3>Contacto</h3>
+                <table>
+                <caption>Horário de Atendimento</caption>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda a Sexta</td>
+                        <td>09h - 18h</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>10h - 14h</td>
+                    </tr>
+                </tbody>
+                </table>
+                <p>Area onde fica os contactos</p>
+
+            <form action="submit/" method="post">
+
+            <label for="nome">Nome</label>
+        <br>
+                <input type="text" id="nome" name="nome" required>
+        <br>
+            <label for="email">Email</label>
+        <br>
+                <input type="email" name="email" id="email" required>
+        <br>
+            <label for="mensagem">Mensagem</label>
+        <br>
+                <textarea name="mensagem" id="mensagem"></textarea>
+        <br>
+            <button type="submit">Enviar</button>
+
+        </form>
+
+            </article>
+        </section>
+
+        <aside>
+            <h2>Conteudo adicional</h2>
+            <ul>
+                <li>Noticias sobre filmes</li>
+                <li>Noticias sobre series</li>
+                <li>Noticias sobre animes</li>
+                <li>Noticias de tecnologias</li>
+            </ul>
+            <p>informações adicionais</p>
+            <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web</a>
+        </aside>
+
+        <details>
+            <summary>Perguntas frequentes</summary>
+                <p>Como faço meu cadastro?</p>
+        </details>
+        <details>
+            <summary>Perguntas frequentes</summary>
+            <p>Onde entro em contacto?</p>
+        </details>
+    </main>
+
+    <footer>
+        <p>© lost underworld</p>
+        <a href="https://loadingsoftware.pt/" target="_blank">Parceria com loading software</a>
+    </footer>
+
+    
+</body>
+</html>

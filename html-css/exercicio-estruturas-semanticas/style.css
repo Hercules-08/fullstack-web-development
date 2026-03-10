@@ -1,0 +1,91 @@
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.img {
+    width: 900px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#email {
+    border: 1px solid rgb(2, 12, 53);
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+#inicio article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contacto article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+th {
+    background-color: #ddd;
+}
+
+header {
+    text-align: left;
+    padding: 10px;
+}
+
+header img,
+header h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+#sobre article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

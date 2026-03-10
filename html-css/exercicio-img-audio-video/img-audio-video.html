@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando com imagem, audio e video</title>
+</head>
+<body>
+
+    <h2>Imagem</h2>
+    <figure>
+    <img src="https://images8.alphacoders.com/132/1323303.jpeg" 
+         alt="Imagem de Bleach" 
+         width="400" 
+         height="320">
+    <figcaption>Ichigo kurosaki - personagem principal de Bleach</figcaption>
+    </figure>
+    
+    <figure>
+        <img src="https://images5.alphacoders.com/133/thumb-1920-1337369.png" 
+             alt="Imagem de Satoru Gojo"
+             width="400"
+             height="320" 
+             srcset="
+                https://images5.alphacoders.com/133/thumb-1920-1337369.png 1280w, 
+                https://images5.alphacoders.com/133/thumb-1920-1337369.png 640w,
+                https://images5.alphacoders.com/133/thumb-1920-1337369.png 320w"
+                sizes="(max-width: 600px) 9vw, 400px">
+    <figcaption>Satoru Gojo — feiticeiro mais forte de Jujutsu Kaisen</figcaption>
+    </figure>
+
+    <figure>
+        <img src="https://static0.dualshockersimages.com/wordpress/wp-content/uploads/wm/2025/12/path-of-exile-2-druid-feature.jpg" 
+             alt="Imagem de path of exile 2"
+             width="400"
+             height="320"
+             srcset="
+                https://static0.dualshockersimages.com/wordpress/wp-content/uploads/wm/2025/12/path-of-exile-2-druid-feature.jpg 1280w, 
+                https://static0.dualshockersimages.com/wordpress/wp-content/uploads/wm/2025/12/path-of-exile-2-druid-feature.jpg 640w, 
+                https://static0.dualshockersimages.com/wordpress/wp-content/uploads/wm/2025/12/path-of-exile-2-druid-feature.jpg 320w">
+    <figcaption>Druida - personagem de path of exiles 2 um jogo de ARPG</figcaption>
+    </figure>
+
+
+    <h2>Audio</h2>
+    <figure>
+        <audio controls aria-label="Rap Muryo Kusho">
+            <source src="multimedia/Muryo-Kusho.mp3" type="audio/mpeg">
+            <!-- <source src="multimedia/Muryo-Kusho.ogg.mp3" type="audio/ogg"> -->
+
+            O seu navegador não suporta áudio HTML.
+            <a href="multimedia/Muryo-Kusho.mp3">Descarregar o áudio</a>
+        </audio>
+    <figcaption>Reprodução de áudio com múltiplos formatos</figcaption>      
+    </figure>
+
+    <h2>Video</h2>
+    <figure>
+        <video controls poster="multimedia/vazio-roxo.png" width="600" aria-label="Satoru usando pela primeira vez o vazio roxo">
+            <source src="multimedia/Gojo-vs-Toji-Round-2-Full-Fight-Jujutsu-Kaisen.mp4" type="video/mp4">
+            <source src="multimedia/Gojo-vs-Toji-Round-2-Full-Fight-Jujutsu-Kaisen.mp4" type="video/webm">
+
+            <track kind="subtitles" srclang="pt" src="multimedia/legendas.vtt" label="Português" default>
+
+            O seu navegador não suporta o vídeo HTML5
+
+            <a href="multimedia/Gojo-vs-Toji-Round-2-Full-Fight-Jujutsu-Kaisen.mp4">Descarregar o vídeo</a>
+        </video>
+    <figcaption>Video da luta do satoru contra o toji legendado em Português</figcaption>
+    </figure>
+
+    <h2>Mapa do google</h2>
+    <figure>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.940904840657!2d-9.13933768465613!3d38.72225217959959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a8c9f5a03%3A0x400ebbde49036d0!2sLisboa!5e0!3m2!1spt-PT!2spt!4v0000000000"
+        width="600"
+        height="450"
+        title="Mapa de Lisboa"
+        loading="lazy"
+        style="border:0;"
+        allowfullscreen>
+    </iframe>
+    <figcaption>Mapa do Google Maps incorporado</figcaption>
+    </figure>
+
+
+    <figure>
+        <embed src="multimedia/docs/Exemplo.pdf" 
+               type="application/pdf"
+               width="600"
+               height="400"
+               aria-label="Documento em PDF incorporado">
+    <figcaption>Documento em PDF no HTML5</figcaption>
+    </figure>
+
+</body>
+</html>

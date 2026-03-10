@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Estilizando no css tabelas e formulários">
+    <meta name="keywords" content="JavaScript, CSS, HTML">
+    <meta name="author" content="Jhamison Rodrigues">
+    <title>Exercicio - Propriedades para formularios e tabelas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <table>
+        <caption>Tabela de dados</caption>
+
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Email</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jhamison</td>
+                <td>email@email.com</td>
+                <td>945853351</td>
+                <td>Online</td>
+            </tr>
+
+            <tr>
+                <td>Thaynara</td>
+                <td>email-email@email.com</td>
+                <td>971587365</td>
+                <td>Offline</td>
+            </tr>
+
+            <tr>
+                <td>Pandora</td>
+                <td>none</td>
+                <td>none</td>
+                <td>none</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <form action="#" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name" placeholder="Insira seu nome completo" required>
+       
+        <label for="email">Email</label>       
+        <input type="email" name="email" id="email" placeholder="Insira seu Email" required>
+       
+        <label for="password">Senha:</label>       
+        <input type="password" name="password" id="password" placeholder="Máximo 8 caracteres" maxlength="8" required>
+
+        <label for="cidades">Selecione a cidade em que nasceu</label>
+        <select name="cidades">
+            <option value="pg">Praia Grande</option>
+            <option value="bh">Camacan</option>
+            <option value="caicara">Santos</option>
+        </select>
+
+        <p>Gênero musical</p>
+        <input type="radio" name="rock" id="musica" value="rock">
+        <label for="rock">Rock roll</label>
+
+        <input type="radio" name="kpop" id="musica" value="kpop">
+        <label for="kpop">Kpop</label>
+
+        <input type="radio" name="pop" id="musica" value="pop">
+        <label for="pop">Pop</label>
+
+        <br><br>
+        
+        <input type="checkbox" name="termos" id="termos">
+        <label for="termos">Termos de privacidade: aceite que seus dados seram usados para fins de encontrar um padrão em você e poder hackear suas contas
+        </label>
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+
+
+    </form>
+    
+</body>
+</html>

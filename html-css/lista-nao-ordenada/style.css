@@ -1,0 +1,28 @@
+ul {
+    list-style-type: disc; 
+}
+
+ul.circle {
+    list-style-type: circle;
+}
+
+ul.square {
+    list-style-type: square;
+}
+
+ul.none {
+    list-style-type: none;
+}
+
+ul.custom-marker {
+    list-style-image: url('midias/euro.png');
+}
+
+ul.spacing {
+    padding-left: 20px;
+}
+
+ul.spacing li {
+    margin-bottom: 10px;
+}
+

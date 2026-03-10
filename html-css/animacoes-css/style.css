@@ -1,0 +1,16 @@
+@keyframes highlight {
+    0% {
+        background-color: #fff;
+    }
+    50% {
+        background-color: #c5bdbd;
+    }
+    100% {
+        background-color: #fff;
+    }
+}
+input[type="text"], input[type="password"] {
+    -webkit-appearance: none;
+    appearance: none;
+    animation: highlight 2s infinite;
+}

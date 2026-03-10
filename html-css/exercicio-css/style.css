@@ -1,0 +1,59 @@
+* {
+    background-color: rgb(0, 0, 0);
+}
+
+h1, p {
+    font: bolder;
+    color: palegreen;
+}
+
+.classe-teste {
+    color: darkgreen;
+}
+
+#paragrafo-teste {
+    margin-top: 20px;
+    font-style: italic;
+    color: aqua;
+}
+
+li {
+    color: aliceblue;
+    font-style: italic;
+}
+
+li[data-info] {
+    padding: 10px;
+    color: turquoise;
+}
+
+li[data-info="especial"] {
+    font-style: italic;
+    color: turquoise;
+}
+
+section, p {
+    border-color: rgb(236, 236, 236);
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bolder;
+}
+
+div, span {
+    color: red;
+    font-weight: bolder;
+}
+
+li:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: red;
+    cursor: pointer;
+}

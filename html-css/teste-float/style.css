@@ -1,0 +1,9 @@
+img {
+    float: left;
+    margin-right: 10px;
+}
+
+aside {
+    float: right;
+    width: 300px;
+}
