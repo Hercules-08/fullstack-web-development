@@ -1,0 +1,35 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+        grid-template-rows: auto 1fr auto;
+        gap: 10px;
+}
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between; /*alinha a barra em horizontal*/
+    align-items: center;  /*alinha o logo e a barra na mesma linha centralizada*/
+    background-color: #333;
+    color: white;
+}
+.main {
+    grid-area: main;
+    background-color: #f1f1f1;
+}
+.footer {
+    grid-area: footer;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin-right: 20px;
+}
