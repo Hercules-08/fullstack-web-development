@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.animated-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: backgroud-color 0.3 ease, transform 0.2 ease;
+}
+
+.animated-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+.animated-button:active {
+    background-color: #1abc9c;
+    transform: scale(0.95);
+}

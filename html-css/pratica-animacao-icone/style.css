@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.animated-icon {
+    font-size: 50px;
+    transition: color 0.3s ease, transform 0.5s ease;
+}
+
+.animated-icon:hover {
+    color: #e74c3c;
+    transform: rotate(360deg);
+}
