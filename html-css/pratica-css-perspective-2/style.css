@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.2) rotate(10deg);
+}
