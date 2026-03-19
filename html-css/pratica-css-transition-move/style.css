@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.move-box {
+    padding: 20px 40px;
+    font-size: 18px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.move-box:hover {
+    transform: translate(50px, 50px);
+}

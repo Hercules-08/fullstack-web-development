@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+
+    background: linear-gradient(45deg, #74ebd5, #ACB6E5);
+    background-size: 400% 400%;
+    animation: backgroundAnimation 10s ease infinite;
+}
+
+.animated-text {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    position: absolute;
+
+    animation: moveAndFade 5s ease-in-out infinite;
+}
+
+@keyframes moveAndFade {
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    25%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    75%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+}
+
+@keyframes backgroundAnimation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
