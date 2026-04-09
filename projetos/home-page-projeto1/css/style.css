@@ -33,7 +33,7 @@ header {
 }
 
 .navbar__header {
-    display: flex;
+    display: inline-block;
     gap: 10px;
     overflow: hidden;
     color: white;
