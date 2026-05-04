@@ -91,6 +91,15 @@ footer {
     background-color: black;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
 section {
     margin: 20px 0;
     padding: 25px;
@@ -135,7 +144,7 @@ section {
 
 .imgHome {
     background: linear-gradient(rgba(129, 129, 129, 0.9),rgba(255, 255, 255, 0.438)),
-    url(/projetos/home-page-projeto1/imagens/animes-banner.jpg);
+    url(../imagens/animes-banner.jpg);
     color: #0f0f0f;
 }
 
