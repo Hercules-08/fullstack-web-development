@@ -1,0 +1,42 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(73, 73, 73);
+    transition: 0.3s;
+}
+
+.hero {
+    height: 150vh;
+
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url(../media/Linkin-Park-banda.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: black;
+}
+
+footer {
+    background-color: #212529;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer p {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
