@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site dedicado à banda Linkin Park com informações, álbuns, concertos e contactos.">
+    <meta name="keywords" content="Linkin Park, rock alternativo, nu metal, Chester Bennington, Mike Shinoda">
+    <meta name="author" content="Jhamison Rodrigues">
+    <title>Linkin Park | Página contactos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="../programação-web-projeto2/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../programação-web-projeto2/media/logo-LP.png" alt="Linkin Park" height="40">
+                    Linkin Park
+                </a>
+                
+                <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tour.html">Tour</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="albuns.html">Albuns</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactos.html">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contactos" class="container py-5">
+            <h2 class="text-center text-white mb-4">Contactos</h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <form id="contactForm" class="text-white">
+                        <div class="mb-3">
+                            <label class="form-label">Nome</label>
+                            <input type="text" name="nome" id="nome" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Apelido</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Data de nascimento</label>
+                            <input type="date" name="data" id="data" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" name="email" id="email" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Telefone</label>
+                            <input type="tel" name="telefone" id="telefone" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Mensagem</label>
+                            <textarea name="mensagem" id="mensagem" class="form-control" rows="4" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-secondary w-100">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Acesse nossas rede sociais</p>
+            <a href="contactos.html">Para saber mais entre em contactos</a>
+            <a href="https://www.instagram.com/linkinpark/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </section>
+
+            <p>
+                &copy; 2026 fan Site Linkin Park |
+                <a href="https://loadingsoftware.pt/" target="_blank">Loading Software</a>
+            </p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,6 +1,15 @@
+header .navbar-brand {
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color: white;
     transition: 0.3s;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -19,8 +28,41 @@
     background-repeat: no-repeat;
 }
 
+.hero p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: gray;
+}
+
+.hero h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5.5rem;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+}
+
 body {
     background-color: black;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+main h2{
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.sobreText {
+    font-size: 1.2rem;
+}
+
+.chesterMemory {
+    font-size: 1.5rem;
+    color: rgba(146, 143, 143, 0.75);
+    line-height: 1.6;
 }
 
 footer {
@@ -33,10 +75,47 @@ footer a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+footer i{
+    font-size: 32px;
+    color: rgb(189, 81, 189);
+}
+
+footer i:hover {
+    transition: 0.3s;
+    color: rgb(168, 13, 142);
 }
 
 footer p {
     color: white;
     margin-top: 10px;
     margin-bottom: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
 }
+
+footer a:hover {
+    color: rgb(73, 73, 73);
+    transition: 0.3s;
+}
+
+footer h2{
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+form .form-label{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+form button{
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+}
+
