@@ -119,3 +119,7 @@ form button{
     text-transform: uppercase;
 }
 
+.card-img-top {
+    height: 350px;
+    object-fit: cover;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Formulario</title>
+</head>
+<body>
+
+    <input type="text" id="campoEmail" placeholder="Digite seu email...">
+    <p id="mensagem"></p>
+    <script>
+        let campoEmail = document.getElementById('campoEmail');
+        let mensagem = document.getElementById('mensagem');
+        campoEmail.addEventListener('input', function() {
+            let email = campoEmail.value;
+            if (email.includes('@')) {
+                mensagem.textContent = 'Email válido';
+                mensagem.style.color = 'green';
+            } else {
+                mensagem.textContent = 'Email inválido';
+                mensagem.style.color = 'red';
+            }
+        });
+    </script>
+    
+</body>
+</html>
