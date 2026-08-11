@@ -1,0 +1,8 @@
+.hidden {
+    display: none;
+}
+
+.destacado {
+    background-color: yellow;
+    border: 2px solid red;
+}
