@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de API</title>
+</head>
+<body>
+    <h2>Utilizadores (via API)</h2>
+    <div id="users"></div>
+
+    <script>
+        fetch("https://jsonplaceholder.typicode.com/users")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("erro na requisicao:" + response.status);
+            }
+            return response.json();
+        })
+        .then(utilizadores => {
+            const container = document.getElementById("users");
+            utilizadores.forEach(user => {
+                const p = document.createElement("p");
+                p.innerHTML = `<strong>${user.name}</strong> - ${user.email}`;
+                container.appendChild(p);
+            });
+        })
+        .catch(error => console.error("Erro ao carregar API:", error));S
+    </script>
+    
+</body>
+</html>
