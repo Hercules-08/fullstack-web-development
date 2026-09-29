@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de projetos</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Sistema de Gestão de Projetos</h1>
+    <section>
+
+        <h2>Novo Projeto</h2>
+
+        <form>
+            <label for="nomeProjeto">Nome do Projeto</label>
+            <input type="text" name="nomeProjeto" id="nomeProjeto" required>
+
+            <label for="descricao">Descrição do Projeto</label>
+            <textarea name="descricao" id="descricao"></textarea>
+
+            <button id="btnAdicionarProjeto" type="button">Adicionar Projeto</button>
+        </form>
+
+    </section>
+
+    <section>
+
+        <h2>Nova tarefa</h2>
+
+        <form>
+            <label for="novaTarefa">Título da Tarefa</label>
+            <input type="text" name="novaTarefa" id="novaTarefa">
+
+            <label for="prioridade">Prioridade</label>
+            <select name="prioridade" id="prioridade">
+                <option value="alta">Alta</option>
+                <option value="media">Média</option>
+                <option value="baixa">Baixa</option>
+
+            </select>
+
+            <button id="btnAdicionarTarefa" type="button">Adicionar Tarefa</button>
+
+        </form>
+
+    </section>
+
+    <section>
+
+        <h2>Lista de Projetos</h2>
+
+        <div id="listaProjetos">
+
+
+        </div>
+
+    </section>
+
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>

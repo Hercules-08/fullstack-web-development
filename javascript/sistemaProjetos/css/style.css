@@ -1,0 +1,130 @@
+/* Configuração geral da página */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 30px;
+}
+
+
+/* Título principal */
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+/* Cada seção do sistema */
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Títulos das seções */ 
+
+h2 {
+    color: #333;
+}
+
+
+/* Formulários */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* Campos de texto */
+
+input,
+textarea,
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+
+/* Área de descrição */
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+
+/* Botões */
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Quando passar o mouse no botão */
+
+button:hover {
+    background-color: #218838;
+}
+
+
+/* Projeto criado pelo JavaScript */
+
+.projeto {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+
+/* Nome do projeto */
+
+.projeto h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+
+/* Lista de tarefas */
+
+.projeto ul {
+    padding-left: 20px;
+}
+
+
+/* Cada tarefa */
+
+.projeto li {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+
+/* Botões das tarefas */
+
+.projeto li button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-size: 12px;
+}
