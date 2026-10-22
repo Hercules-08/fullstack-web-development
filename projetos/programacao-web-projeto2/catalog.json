@@ -1,0 +1,30 @@
+{
+    "categories": [
+        {
+            "id": "cds",
+            "name": "CDs e Álbuns"
+        },
+        {
+            "id": "merch",
+            "name": "Merchandise"
+        }
+    ],
+    "products": [
+        {
+            "id": "1",
+            "name": "Hybrid Theory",
+            "description": "Álbum de estreia dos Linkin Park.",
+            "price": 15.99,
+            "category": "cds",
+            "image": "media/hybrid-theory.png"
+        },
+        {
+            "id": "2",
+            "name": "T-Shirt Linkin Park",
+            "description": "T-shirt de demonstração da banda.",
+            "price": 25.99,
+            "category": "merch",
+            "image": "media/chester.jpeg"
+        }
+    ]
+}

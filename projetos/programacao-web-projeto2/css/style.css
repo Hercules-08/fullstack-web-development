@@ -1,0 +1,311 @@
+header .navbar-brand {
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    transition: 0.3s;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(73, 73, 73);
+    transition: 0.3s;
+}
+
+.hero {
+    height: 150vh;
+
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url(../media/Linkin-Park-banda.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: gray;
+}
+
+.hero h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5.5rem;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: black;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+main h2{
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.sobreText {
+    font-size: 1.2rem;
+}
+
+.chesterMemory {
+    font-size: 1.5rem;
+    color: rgba(146, 143, 143, 0.75);
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #212529;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+footer i{
+    font-size: 32px;
+    color: rgb(189, 81, 189);
+}
+
+footer i:hover {
+    transition: 0.3s;
+    color: rgb(168, 13, 142);
+}
+
+footer p {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+footer a:hover {
+    color: rgb(73, 73, 73);
+    transition: 0.3s;
+}
+
+footer h2{
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+form .form-label{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+form button{
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+}
+
+.card-img-top {
+    height: 350px;
+    object-fit: cover;
+}
+
+.loja-intro h1 {
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.loja-intro p {
+    font-size: 1.3rem;
+    color: #aaa;
+}
+
+#filter-section h2,
+#order-form h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#filter-section label,
+#order-form label {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#category-filter,
+#product,
+#quantity {
+    background-color: #212529;
+    color: white;
+    border: 1px solid #555;
+}
+
+#category-filter:focus,
+#product:focus,
+#quantity:focus {
+    border-color: #bd51bd;
+    box-shadow: 0 0 0 0.2rem rgba(189, 81, 189, 0.25);
+}
+
+.product-card {
+    height: 100%;
+    background-color: #212529;
+    color: white;
+    border: 1px solid #343a40;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    border-color: #bd51bd;
+}
+
+.product-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+    background-color: #181818;
+    padding: 10px;
+}
+
+.product-card .card-title {
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.product-card .card-text {
+    color: #ccc;
+}
+
+.product-price {
+    color: #e59be5;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* Botões dos cartões */
+.product-card .btn {
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.product-card .btn:hover {
+    border-color: #bd51bd;
+}
+
+#order-form {
+    padding: 25px;
+    background-color: #151515;
+    border: 1px solid #343a40;
+    border-radius: 10px;
+}
+
+#total-value {
+    color: white;
+    font-size: 1.4rem;
+}
+
+#loading-message {
+    color: #ccc;
+}
+
+.shop-message {
+    color: #e59be5;
+    padding: 12px 0;
+}
+
+/* Lightbox */
+.lightbox[hidden] {
+    display: none !important;
+}
+
+.lightbox:not([hidden]) {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.lightbox-content {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 30px;
+    background-color: #212529;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.lightbox-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.lightbox-content img {
+    max-width: 100%;
+    max-height: 350px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.lightbox-content p {
+    font-size: 1.2rem;
+}
+
+.close-btn {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #e59be5;
+}
+
+@media (max-width: 576px) {
+    .loja-intro h1 {
+        font-size: 2.2rem;
+        letter-spacing: 2px;
+    }
+
+    .product-card img {
+        height: 220px;
+    }
+
+    .lightbox-content {
+        padding: 25px 15px;
+    }
+}
